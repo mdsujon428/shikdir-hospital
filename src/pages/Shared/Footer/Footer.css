@@ -1,0 +1,15 @@
+.footer-container{
+    padding: 80px 200px;
+    text-align: left;
+}
+.footer-container div p{
+    text-transform: capitalize;
+    font-stretch: expanded;
+    text-align: left;
+}
+
+@media screen and (max-width:688px) {
+    .footer-container{
+        padding: 50px 20px;
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "Diagnose & Research",
+            "description":"We are an organization created by parents of children diagnosed with rare forms of Epilepsy and Autism as a result of a change in the SCN2A gene. Our vision is to find effective treatments and a cure for SCN2A related disorders. Our mission is to improve the lives of those affected by SCN2A related disorders through research, public awareness, family support and patient advocacy. We are a registered 501(c)(3) organization.",
+            "img":"https://pro-theme.com/html/health/media/services/1.png"
+        },
+        {
+            "id":2 ,
+            "name": "Dental Surgery",
+            "description":"Dental emergencies come in many different forms. They may occur as suddenly as a traumatic injury to the mouth, or they can develop gradually in the form of dental discomfort until the situation is too much to bear. Whatever you or your family’s current situation is, the important thing to remember is to not panic. Instead, pick up the phone right away and contact the closest Sage Dental Care location in either Boulder or Lafayette, CO for an emergency dentist near you. Our doctors make every effort to see patients in need of urgent treatment as soon as they possibly can, and we can also provide assistance over the phone if you’re unable to reach our office right away.",
+            "img":"https://pro-theme.com/html/health/media/services/2.png"
+        },
+        {
+            "id":3 ,
+            "name":"Cancer Oncology",
+            "description":"Cancer treatment calls for complete, customised care from our experienced oncologists working together with nurses, para-medical staff, palliative (end-of-life) care professionals and counsellors. Armed with up-to-date technology, our qualified team works in the fields of medical, surgical, radiation, haematological (blood), and paediatric (childhood) oncology to improve a patient’s quality of life.We offer a comprehensive approach to cancer screening, treatment and support",
+            "img":"https://pro-theme.com/html/health/media/services/3.png"
+        },
+        {
+            "id":4 ,
+            "name":"Neurology",
+            "description":"Function invites submissions, including original research articles and evidence reviews, in the areas of molecular, cellular and systems neuroscience. Function publishes work at the forefront of neuroscience, in diverse topics such as neural circuits and behavior, synaptic mechanisms underlying learning and brain disorders, glial biology and sensory perception and motor control.Manuscripts featuring neuroscience research submitted by March 31, 2022, will be published upon acceptance and included in a special collection.",
+            "img":"https://pro-theme.com/html/health/media/services/4.png"
+        },
+        {
+            "id": 5,
+            "name": "Drug / Medicine",
+            "description":"We Are Leading Manufacturer of Advanced Cleanroom Compliant Laminar Flow Workstations. We Are a Single Source OEM Provider Of Complete Cleanroom & Lab Facilities. Call Us. 5 Decades of Innovation. Deployable to any Region. Types: Truck Laboratories, Trailer Laboratories.",
+            "img":"https://pro-theme.com/html/health/media/services/5.png"
+        },
+        {
+            "id":6,
+            "name":"Heart Center",
+            "description":"Cardiologists are doctors who specialize in the diagnosis, prevention and treatment of conditions related to the heart and blood vessels. A patient may be referred to a cardiologist if he experiences symptoms like chest pains, shortness of breath, dizziness, or high blood pressure. The physician will then evaluate your symptoms, take your health and family history and your weight.",
+            "img":"https://pro-theme.com/html/health/media/services/6.png"
+        },
+        {
+            "id":7,
+            "name":"Endocrinology",
+            "description":"Endocrinology is the study of hormones. Hormones are essential for our every-day survival. They control our temperature, sleep, mood, stress, growth and more. An endocrinologist is a doctor that treats diseases related to problems with hormones. A hormone is a chemical messenger that travels from one cell to another.",
+            "img":"https://pro-theme.com/html/health/media/services/7.png"
+        },
+        {
+            "id":8,
+            "name": "Pregnancy & Births",
+            "description":"We greatly appreciate your gift (Donation/Charity) to Project Corona Relief & Support Donation Campaign For Poor Families & Doctors through Ketto Fundraising Portal in past few days.It is through the generosity of individuals like you that we can carry out our work. Please accept our sincere thanks.",
+            "img":"https://pro-theme.com/html/health/media/services/8.png"
+        },
+        {
+            "id":9,
+            "name": "Medical Counseling",
+            "description":"Our Medicaid Plan Includes Extra Benefits, Like Rewards For Going To The Doctor. Our Medicaid Plan Has More Than 1,500 In-Network Pharmacies. Learn More & Enroll Today, Support For New Moms. Weight Management Help. Gift Cards Available. Highlights: 24/7 Nurse Advice Line Available, Gift Cards Available, Free Rides Available.",
+            "img":"https://pro-theme.com/html/health/media/services/9.png"
+        }
+    ]
+}
