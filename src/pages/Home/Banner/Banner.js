@@ -29,7 +29,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://lh3.googleusercontent.com/proxy/eWnCwARqJYJZKrm4-HzTVGGdCJEringV_17VmIsF1slJEcgF5yShUm8hnAWpu6D9hlFmljahNndaXWvRA1z9gHW9MBKfRdQ3jG34vOoBvfQLkNEx1crCINCvcQ"
+                        src="https://embed.widencdn.net/img/veritas/4qdmeht1ts/1200x630px/doctor-specialists.jpg?u=at8tiu&use=d502n&k=c"
                         alt="Third slide"
                     />
 
