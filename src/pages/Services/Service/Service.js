@@ -7,7 +7,7 @@ const Service = (props) => {
     const Description = description.slice(0, 150);
 
     return (
-        <NavLink to={`/services/${id}`} style={{textDecoration:'none',color:'black' }} title={`Click here to see in detail about ${name}`}>
+       
             <Col className='mt-3' >
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={img} />
@@ -17,9 +17,12 @@ const Service = (props) => {
                             {Description}
                         </Card.Text>
                     </Card.Body>
+                    <Card.Footer>
+                        <NavLink to={`/services/${id}`} style={{textDecoration:'none',color:'black' }} className='btn btn-primary' title={`Click here to see in detail about ${name}`}>See in details</NavLink>
+                    </Card.Footer>
                 </Card>
             </Col>
-        </NavLink>
+        
     );
 };
 

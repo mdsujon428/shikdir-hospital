@@ -2,6 +2,9 @@ import React from 'react';
 import { Col, Container, FloatingLabel, Form, Row } from 'react-bootstrap';
 
 const Appointment = () => {
+    const handleAppointment =(e)=>{
+        e.preventDefault()
+    }
     return (
         <>
             <div className='ps-5 lh-lg text-white' style={{ height: '100px', background: '#90e0ef', textAlign: 'left' }}>
@@ -10,19 +13,19 @@ const Appointment = () => {
             </div>
             <form>
                 <Container>
-                    <form>
+                    <form onClick={handleAppointment}>
                         <Row sx={1} md={2} className="px-2">
                             <Col>
                                 <input type="text" className='form-control my-3 p-3' placeholder='First Name' />
                                 <input type="text" className='form-control my-3 p-3' placeholder='Email Address' />
                                 <input type="date" className='form-control my-3 p-3' placeholder='Date Of Birth' />
-                                <input type="date" className='form-control my-3 p-3' placeholder='Preferred Appointment Date' />
+                                <input type="text" className='form-control my-3 p-3' placeholder='Preferred Appointment Date' />
                             </Col>
                             <Col>
                                 <input type="text" className='form-control my-3 p-3' placeholder='Last Name' />
                                 <input type="text" className='form-control my-3 p-3' placeholder='Phone#' />
-                                <input type="date" className='form-control my-3 p-3' placeholder='Select Your Appointment' />
-                                <input type="date" className='form-control my-3 p-3' placeholder='Select Your Gender' />
+                                <input type="text" className='form-control my-3 p-3' placeholder='Select Your Appointment' />
+                                <input type="text" className='form-control my-3 p-3' placeholder='Select Your Gender' />
                             </Col>
                         </Row>
                         <Row className="px-2">

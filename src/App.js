@@ -11,7 +11,8 @@ import SingleService from './pages/Services/SingleService/SingleService';
 import Footer from './pages/Shared/Footer/Footer';
 import Header from './pages/Shared/Header/Header';
 import SignIn from './pages/Sign-In/Sign-In/SignIn';
-// import Header from './pages/Header/Header';
+import NotFound from './pages/NotFound'
+import Doctors from './pages/Doctors/Doctors';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
             <Route path='/home'>
               <Home />
             </Route>
+            <Route path='/doctors'>
+              <Doctors/>
+            </Route>
             <Route exact path='/services'>
               <Services />
             </Route>
@@ -38,9 +42,9 @@ function App() {
             <PrivateRoute path='/appointment'>
               <Appointment />
             </PrivateRoute>
-            {/* <Route path='/*'>
-            <NotFound></NotFound>
-          </Route> */}
+            <Route path='/*'>
+                <NotFound></NotFound>
+            </Route>
           </Switch>
           <Footer></Footer>
         </Router>

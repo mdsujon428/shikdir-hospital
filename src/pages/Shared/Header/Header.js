@@ -18,7 +18,7 @@ const Header = () => {
                         <Nav className="me-auto">
                             <Nav.Link as={Link} to="/home">HOME</Nav.Link>
                             <Nav.Link as={Link} to="/services">SERVICES</Nav.Link>
-                            <Nav.Link as={Link} to="/about">ABOUT</Nav.Link>
+                            <Nav.Link as={Link} to="/doctors">ALL DOCTORS LIST</Nav.Link>
                             <Nav.Link as={Link} to="/appointment">APPOINTMENT FORM</Nav.Link>
                         </Nav>
                               {user?.email?

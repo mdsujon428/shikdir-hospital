@@ -1,0 +1,79 @@
+[
+    {
+        "id":1,
+        "name":"Prof. Md. Mostafizur Rahman",
+        "degree":"MBBS, FCPS (Med), FRCP (UK), FCCP (USA)",
+        "designation":"Professor and Head",
+        "institution":"AKMMCH",
+        "room":"Room-305,FIoor-2nd",
+        "block":"A",
+        "time":"5.00 PM 10.00 PM",
+        "serileDay":"Saturday- Thursday"
+    },
+    {
+        "id":2,
+        "name":"Prof. Dr. MMA Bari",
+        "degree":"MBBS, FCPS (Medicine), MD (DU), Ph.D (R)",
+        "designation":"Professor",
+        "institution":"BSMMU",
+        "room":"Room-324,Floor-2nd",
+        "block":"E",
+        "time":"5.00 PM 10.00 PM",
+        "serileDay":"Saturday- Thursday"
+    },
+    {
+        "id":3,
+        "name":"Prof. Dr. A.K.M. Aminul Haque",
+        "degree":"MBBS, FCPS, MD, FACP (USA)",
+        "designation":"Professor",
+        "institution":"BSMMU",
+        "room":"Room-554, Floor-4th",
+        "block":"A",
+        "time":"5.00 PM- 9.00 PM",
+        "serileDay":"Saturday- Thursday"
+    },
+    {
+        "id":4,
+        "name":"Prof. Dr. A.K.M. Aminul Haque",
+        "degree":"MBBS, FCPS, MD, FACP (USA)",
+        "designation":"Professor",
+        "institution":"BSMMU",
+        "room":"Room-554, Floor-4th",
+        "block":"B",
+        "time":"5.00 PM- 9.00 PM",
+        "serileDay":"Saturday- Thursday"
+    },
+    {
+        "id":5,
+        "name":"Prof. Dr. Mohammad Azizul Kahhar",
+        "degree":"MRCP (UK), FCPS",
+        "designation":"Professor",
+        "institution":"Dhaka Medical College Hospital",
+        "room":"Room-419/421,Floor-3rd",
+        "block":"E",
+        "time":"5.00 PM- 9.00 PM",
+        "serileDay":"Saturday- Wednesday"
+    },
+    {
+        "id":6,
+        "name":"Professor Dr. Rajibul Alam",
+        "degree":"MBBS, FCPS, MD, MACP (USA)",
+        "designation":"Professor",
+        "institution":"AKMMCH",
+        "room":"Room-206 Floor-1st",
+        "block":"A",
+        "time":"5.00 PM- 9.00 PM",
+        "serileDay":"Saturday- Wednesday"
+    },
+    {
+        "id":7,
+        "name":"Professor Dr.Rajibul Alam",
+        "degree":"MBBS, FCPS, MD, MACP (USA)",
+        "designation":"Professor",
+        "institution":"AKMMCH",
+        "room":"Room-206",
+        "block":"E",
+        "time":"11:30 AM -1:30 PM6.00 PM - 9.00 PM",
+        "serileDay":"Saturday-Thursday"
+    }
+]
