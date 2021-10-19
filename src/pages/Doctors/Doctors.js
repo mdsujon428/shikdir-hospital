@@ -13,8 +13,8 @@ const Doctors = () => {
     return (
         <Container className="my-3">
             <Row>
-                <Col>
-                    <Table striped bordered hover>
+                <Col className="overflow-auto">
+                    <Table  striped bordered hover>
                         <thead>
                             <tr>
                                 <th>Name</th>
