@@ -18,7 +18,7 @@ const Service = (props) => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <NavLink to={`/services/${id}`} style={{textDecoration:'none',color:'black' }} className='btn btn-primary' title={`Click here to see in detail about ${name}`}>See in details</NavLink>
+                        <NavLink to={`/services/${id}`} style={{textDecoration:'none',color:'black' }} className='btn btn-primary' title={`Click here to see in detail about ${name}`}> See in details</NavLink>
                     </Card.Footer>
                 </Card>
             </Col>
