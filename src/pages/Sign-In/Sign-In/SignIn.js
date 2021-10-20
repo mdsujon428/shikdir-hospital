@@ -18,7 +18,7 @@ const SignIn = () => {
     const history = useHistory()
     const redirect_uri = location.state?.from || '/';
 
-    const { user, setUser, signInUsingGoogle } = useFirebase();
+    const { setUser, signInUsingGoogle } = useFirebase();
     const handleGoogleSignIn = () => {
         signInUsingGoogle()
             .then(result => {
@@ -44,7 +44,6 @@ const SignIn = () => {
         createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 const user = userCredential.user;
-                console.log(user)
             })
             .catch((error) => {
                 console.log(error.message)

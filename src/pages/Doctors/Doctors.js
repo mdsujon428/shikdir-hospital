@@ -11,31 +11,37 @@ const Doctors = () => {
     }, [])
     // console.log(doctors)
     return (
-        <Container className="my-3">
-            <Row>
-                <Col className="overflow-auto">
-                    <Table  striped bordered hover>
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Degree</th>
-                                <th>Designation</th>
-                                <th>institution</th>
-                                <th>Room</th>
-                                <th>Block</th>
-                                <th>Time</th>
-                                <th>Serile Day</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {
-                                doctors.map(doctor=> <Doctor key={doctor.id} doctor={doctor}> </Doctor>)
-                            }
-                        </tbody>
-                    </Table>
-                </Col>
-            </Row>
-        </Container>
+        <>
+            <div className='py-3' style={{ background: "#90E0EF"}}>
+                <h1 className='text-white'>List of Our Doctors.</h1>
+            </div>
+            <Container className="my-3">
+
+                <Row>
+                    <Col className="overflow-auto">
+                        <Table striped bordered hover>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Degree</th>
+                                    <th>Designation</th>
+                                    <th>institution</th>
+                                    <th>Room</th>
+                                    <th>Block</th>
+                                    <th>Time</th>
+                                    <th>Serile Day</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {
+                                    doctors.map(doctor => <Doctor key={doctor.id} doctor={doctor}> </Doctor>)
+                                }
+                            </tbody>
+                        </Table>
+                    </Col>
+                </Row>
+            </Container>
+        </>
     );
 };
 
